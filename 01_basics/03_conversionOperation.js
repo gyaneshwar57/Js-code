@@ -29,11 +29,11 @@ let negValue= -value
 let str1= "Gyani"
 let str2= " Hello"
 let str3= str1 + str2
-//console.log(str3)
-//console.log("1"+2)
-//console.log(1+"2")
-//console.log("1"+2+2)
-//console.log(1+2+"2")
+//console.log(str3)    Gyani HelloMm
+//console.log("1"+2)   12
+//console.log(1+"2")   12
+//console.log("1"+2+2) 122
+//console.log(1+2+"2") 32
 
 //console.log(+true) output=1 //if in (+"")  output=0
 let gameCounter= 100
