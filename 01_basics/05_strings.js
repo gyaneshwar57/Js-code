@@ -23,7 +23,7 @@ console.log(anotherString) //ite    reverse
 
 const newStringOne= "   hitesh   "
 console.log(newStringOne);  //   hitesh
-console.log(newStringOne.trim);//hitesh
+console.log(newStringOne.trim());//hitesh
 
 
 const url=" https://gyani.com/gyani%20choudhary"
