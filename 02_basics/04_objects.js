@@ -37,11 +37,60 @@ const users=[
         email:"h@cd.com"
     }
 ]
-users[1].email
-console.log(tinderUser);   // { id: '323', name: 'sammy', isLoggedIn: false }
+//users[1].email
+//console.log(tinderUser);   // { id: '323', name: 'sammy', isLoggedIn: false }
 
-console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isLoggedIn' ] we can use .values which gives value of key
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));// true 
+//console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isLoggedIn' ] we can use .values which gives value of key
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));// true 
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+const {courseInstructor}=course
+console.log(courseInstructor);// hitesh
+
+const {courseInstructor:instructor}=course
+console.log(instructor);// hitesh
+
+
+//const navbar=({company}){
+    
+//}
+//navbar(company="hitesh") notimp for now
+
+// APIs call                   refrence website: random user generator(Json formatter) for pasting in json formatter and
+//{
+//   "name":"Gyani",
+//   "coursename":"js in hindi",
+//  "price":"free"     //use ""
+//}                
+
+
+//for arrays use
+[
+    {},
+    {},
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
