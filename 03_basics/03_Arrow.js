@@ -40,7 +40,7 @@ chai()// undefined
 //const addTwo(num1,num2) => num1+num2
 //const addTwo(num1,num2) =>(num1+num2)  // implicity return
 //console.log(addTwo(3,4));//7
-const addTwo(num1,num2) =>({username:"Gyani"})  //use compulsory parenthesis
+const addTwo =(num1,num2) =>({username:"Gyani"})  //use compulsory parenthesis
 
 console.log(addTwo(3,4))//  username:'Gyani'
 
