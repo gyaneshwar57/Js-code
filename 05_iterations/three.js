@@ -12,9 +12,9 @@ for (const num of arr) {
  }
 //maps
  const map=new Map()  //will have unique values
- map.set('IN',"india")
+ p.set('IN',"india")
  map.set('USA',"united states of america")
- map.set('Fr',"france")
+ map.set('Fr',"frmaance")
  console.log(map);
 // for(const [key,value] of map){   //if we use key instead of [key,value] output:in array
 //     console.log(key,':-',value)// IN:-india
