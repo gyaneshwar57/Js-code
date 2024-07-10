@@ -14,21 +14,21 @@ console.log(user.username);
 console.log(this);
 
 
-function user(username, loginCount, isLoggedIn){
+function User(username, loginCount, isLoggedIn){
     this.username=username;
     this.loginCount=loginCount;
     this.isLoggedIn=isLoggedIn;
     this.greetings=function(){
-        console.log(`welcome ${this.username}`);
+        console.log(`welcomel ${this.username}`);
     }
     return this
 }
-const userOne=new user("Gyani",12,true)
-const userTwo=new user("chai",11,false)
-console.log(userOne.constructor)
+const userOne=new User("Gyani",12,true)
+const userTwo=new User("chai",11,false)
+console.log(userOne)
 console.log(userTwo);
 
-
-
-
+//empty obj created
+//constructor funct created using new keyword
+// this keyowrd will inject
 
